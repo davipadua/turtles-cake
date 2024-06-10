@@ -68,9 +68,9 @@ export default function Container() {
             <StyledNavBar>
                 <StyledMenuItems to={"/"}>Bolos</StyledMenuItems>
                 <StyledMenuItems to={"/tortas"}>Tortas</StyledMenuItems>
-                <StyledMenuItems to={"/doces"}>Doces</StyledMenuItems>
+                <StyledMenuItems to={"/sobremesas"}>Doces</StyledMenuItems>
                 <StyledMenuItems to={"/fidelidade"}>Fidelidade</StyledMenuItems>
-                <StyledMenuItems to={"sobre-nos"}>Sobre Nós</StyledMenuItems>
+                <StyledMenuItems to={"/sobre-nos"}>Sobre Nós</StyledMenuItems>
 
             </StyledNavBar>
             

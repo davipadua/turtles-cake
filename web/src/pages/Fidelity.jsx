@@ -4,12 +4,12 @@ import Header from "../components/Header";
 
 
 
-export default function Cakes(){
+export default function Fidelity(){
     return(
         <>
             <Header/>
             <Container>
-                <h1>Bolos Gourmet</h1>
+                <h1>Programa de Fidelidade</h1>
             </Container>
             
 

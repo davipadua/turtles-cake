@@ -4,12 +4,12 @@ import Header from "../components/Header";
 
 
 
-export default function Cakes(){
+export default function AboutUs(){
     return(
         <>
             <Header/>
             <Container>
-                <h1>Bolos Gourmet</h1>
+                <h1>Sobre Nós</h1>
             </Container>
             
 
