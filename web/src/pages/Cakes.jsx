@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import Container from "../components/Container";
 import Header from "../components/Header";
+import Title from "../components/Title";
 
 
 
@@ -9,7 +10,7 @@ export default function Cakes(){
         <>
             <Header/>
             <Container>
-                <h1>Bolos Gourmet</h1>
+                <Title name="Bolos Gourmet"></Title>
             </Container>
             
 

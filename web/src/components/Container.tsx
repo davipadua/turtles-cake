@@ -3,10 +3,11 @@ import {ReactNode} from "react"
 import styled from "styled-components"
 
 const StyledContainer = styled.div`
-    padding-left: 6%;
-    padding-right: 6%;
-    padding-top: 50px; 
-    padding-bottom: 50px;
+    margin: 50px 20%;
+
+    @media (max-width: 500px) {
+        margin: 0;
+    }
 `;
 
 interface ContainerProps {
