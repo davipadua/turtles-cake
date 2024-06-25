@@ -21,7 +21,6 @@ export default function Cakes(){
                     img={LogoImg}
                     description1="Massa de farinha premium com açúcar mascavo e canela, suco e fatias da maçã natural."
                     description2="Perfeito para acompanhar uma xícara de café!"
-                
                 />
                 <Card
                     name="Cake de Laranja"
@@ -30,7 +29,6 @@ export default function Cakes(){
                     img={LogoImg}
                     description1="Massa de farinha premium com o suco da laranja natural e cobertura de laranja."
                     description2="Perfeito para acompanhar uma xícara de café!"
-                
                 />
                 <Card
                     name="Cake de Cenoura"
@@ -39,15 +37,9 @@ export default function Cakes(){
                     img={LogoImg}
                     description1="Massa de farinha premium com a cenoura natural e cobertura de chocolate com granulado gourmet."
                     description2="Perfeito para acompanhar uma xícara de café!"
-                
                 />
             </Container>
             <Footer/>
-                
-            
-            
-
-
         </>
     )
 }
