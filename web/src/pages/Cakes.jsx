@@ -3,8 +3,8 @@ import Container from "../components/Container";
 import Header from "../components/Header";
 import Title from "../components/Title";
 import Card from "../components/Card";
-
 import LogoImg from "../assets/logo-img.png";
+import Footer from "../components/Footer";
 
 
 
@@ -42,6 +42,9 @@ export default function Cakes(){
                 
                 />
             </Container>
+            <Footer/>
+                
+            
             
 
 
