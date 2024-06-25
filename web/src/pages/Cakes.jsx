@@ -23,8 +23,24 @@ export default function Cakes(){
                     description2="Perfeito para acompanhar uma xícara de café!"
                 
                 />
-                <Card/>
-                <Card/>
+                <Card
+                    name="Cake de Laranja"
+                    link="#"
+                    price="R$ 40,00"
+                    img={LogoImg}
+                    description1="Massa de farinha premium com o suco da laranja natural e cobertura de laranja."
+                    description2="Perfeito para acompanhar uma xícara de café!"
+                
+                />
+                <Card
+                    name="Cake de Cenoura"
+                    link="#"
+                    price="R$ 45,00"
+                    img={LogoImg}
+                    description1="Massa de farinha premium com a cenoura natural e cobertura de chocolate com granulado gourmet."
+                    description2="Perfeito para acompanhar uma xícara de café!"
+                
+                />
             </Container>
             
 
