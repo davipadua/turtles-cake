@@ -1,8 +1,6 @@
 import React from "react";
 import styled from "styled-components";
 
-import LogoImg from "../assets/logo-img.png";
-
 const StyledCard = styled.div`
   background-color: white;
   padding: 20px;
@@ -92,7 +90,7 @@ export default function Card(props: CardProps) {
       <StyledTitle>{props.name}</StyledTitle>
 
       <StyledContentCard>
-        <StyledImgCard src={props.img} alt="Cake de maçã" />
+        <StyledImgCard src={props.img} alt={props.name} />
         <StyledTextCard>
           <StyledTextContent>{props.description1}<br></br>{props.description2}</StyledTextContent>
           <StyledPriceAndButton>
