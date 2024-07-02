@@ -34,7 +34,7 @@ const StyledNavBar = styled.div`
 
 const StyledMenuItems = styled(Link)`
     display: block;
-    padding: 10px 5px;
+    padding: 10px 5px 10px 0;
     text-align: center;
     font-family: Roboto;
     text-decoration: none;
@@ -46,9 +46,9 @@ const StyledMenuItems = styled(Link)`
         color: #9EC09F;
     }
 
-    @media (max-width: 400px) {
+    @media (max-width: 500px) {
         font-size: 13px;
-        padding-top: 10px;
+        
     }
 `;
 

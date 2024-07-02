@@ -12,18 +12,26 @@ const StyledCard = styled.div`
 
 const StyledContentCard = styled.div`
   display: flex;
+
+  @media (max-width: 500px) {
+    flex-wrap: wrap;
+  }
 `;
 
 const StyledTitle = styled.p`
   font-size: 25px;
   font-family: 'Roboto', sans-serif;
   margin-bottom: 10px;
+
+  @media (max-width: 500px) {
+    font-size: 20px;
+  }
 `;
 
 const StyledImgCard = styled.img`
   background-color: #f0f0f0;
   width: 200px;
-  margin-right: 20px;
+  margin: 0 20px 20px 0;
 `;
 
 const StyledTextCard = styled.div`
@@ -37,6 +45,10 @@ const StyledTextContent = styled.p`
   font-family: 'Roboto', sans-serif;
   font-size: 15px;
   margin: 0 0 10px 0;
+
+  @media (max-width: 500px) {
+        
+    }
 `;
 
 const StyledPriceAndButton = styled.div`
@@ -60,6 +72,9 @@ const StyledLink = styled.a`
   font-family: 'Roboto', sans-serif;
   text-align: center;
   display: inline-block;
+  transition: 0.4s ease;
+
+  
 `;
 
 interface CardProps {

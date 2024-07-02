@@ -9,7 +9,7 @@ const StyledTitle = styled.h1`
     border-bottom: solid 1.5px black;
 
     @media (max-width: 500px) {
-        font-size: 30px;
+        font-size: 25px;
     }
 `;
 
