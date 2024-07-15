@@ -1,18 +1,19 @@
 import Container from "../components/Container";
-import Header from "../components/Header";
+import Header from "../components/NavBar";
 import Title from "../components/Title";
 import Card from "../components/Card";
 import LogoImg from "../assets/logo-img.png";
 import Footer from "../components/Footer";
+import NavBar from "../components/NavBar";
 
 
 
 export default function Cakes(){
     return(
         <>
-            <Header/>
+            <NavBar/>
             <Container>
-                <Title name="Bolos Gourmet"></Title>
+                <Title name="Cakes Gourmet"></Title>
                 <Card
                     name="Cake de Maçã"
                     link="#"

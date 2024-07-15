@@ -1,5 +1,5 @@
 import Container from "../components/Container";
-import Header from "../components/Header";
+import Header from "../components/NavBar";
 import Title from "../components/Title";
 import Card from "../components/Card";
 import LogoImg from "../assets/logo-img.png";
