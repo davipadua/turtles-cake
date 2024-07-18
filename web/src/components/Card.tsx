@@ -78,7 +78,9 @@ const StyledLink = styled.a`
 interface CardProps {
   name: string;
   link: string;
-  price: string;
+  price1: string;
+  price2: string;
+  price3: string;
   img: string;
   description1: string;
   description2: string;
@@ -92,9 +94,13 @@ export default function Card(props: CardProps) {
       <StyledContentCard>
         <StyledImgCard src={props.img} alt={props.name} />
         <StyledTextCard>
-          <StyledTextContent>{props.description1}<br></br>{props.description2}</StyledTextContent>
+          <StyledTextContent>{props.description1}<br></br>{props.description2 ?? ""}</StyledTextContent>
           <StyledPriceAndButton>
-            <StyledPrice>{props.price}</StyledPrice>
+            <StyledPrice>
+              {props.price1 ?? ""}<br/>
+              {props.price2 ?? ""}<br/>
+              {props.price3 ?? ""}
+            </StyledPrice>
             <StyledLink href={props.link}>Encomendar</StyledLink>
           </StyledPriceAndButton>
         </StyledTextCard>

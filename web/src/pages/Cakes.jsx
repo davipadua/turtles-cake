@@ -17,7 +17,7 @@ export default function Cakes(){
                 <Card
                     name="Cake de Maçã"
                     link="#"
-                    price="R$ 40,00"
+                    price1="R$ 40,00"
                     img={LogoImg}
                     description1="Massa de farinha premium com açúcar mascavo e canela, suco e fatias da maçã natural."
                     description2="Perfeito para acompanhar uma xícara de café!"
@@ -25,7 +25,7 @@ export default function Cakes(){
                 <Card
                     name="Cake de Laranja"
                     link="#"
-                    price="R$ 40,00"
+                    price1="R$ 40,00"
                     img={LogoImg}
                     description1="Massa de farinha premium com o suco da laranja natural e cobertura de laranja."
                     description2="Perfeito para acompanhar uma xícara de café!"
@@ -33,7 +33,7 @@ export default function Cakes(){
                 <Card
                     name="Cake de Cenoura"
                     link="#"
-                    price="R$ 45,00"
+                    price1="R$ 45,00"
                     img={LogoImg}
                     description1="Massa de farinha premium com a cenoura natural e cobertura de chocolate com granulado gourmet."
                     description2="Perfeito para acompanhar uma xícara de café!"

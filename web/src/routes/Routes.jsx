@@ -4,6 +4,7 @@ import Turtles from "../pages/Turtles";
 import Desserts from "../pages/Desserts";
 import Fidelity from "../pages/Fidelity";
 import AboutUs from "../pages/AboutUs";
+import Sweets from "../pages/Sweets";
 
 
 export default function AllRoutes(){
@@ -15,6 +16,7 @@ export default function AllRoutes(){
                 <Route path="/sobremesas" element={<Desserts/>}/>
                 <Route path="/fidelidade" element={<Fidelity/>}/>
                 <Route path="/sobre-nos" element={<AboutUs/>}/>
+                <Route path="/docinhos" element={<Sweets/>}/>
             </Routes>
         
         

@@ -1,12 +1,13 @@
 import React, { useState } from "react";
 import styled from "styled-components";
 import LogoImg from "../assets/logo-img.png";
+import LogoImgNew from "../assets/logo-img-new.png";
 import { Link } from "react-router-dom";
 import CloseIcon from '@mui/icons-material/Close';
 
 
 const StyledContainer = styled.div`
-    background-color: #9EC09F;
+    background-color: #E2E7D8;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -14,7 +15,7 @@ const StyledContainer = styled.div`
 `;
 
 const StyledImage = styled.img`
-    width: 150px;
+    width: 200px;
 `;
 
 const StyledTitle = styled.h1`
@@ -30,7 +31,7 @@ const StyledTitle = styled.h1`
 const MenuButton = styled.button`
     background: none;
     border: none;
-    color: #fff;
+    color: #3C5951;
     font-size: 20px;
     cursor: pointer;
     padding: 0 20px 10px 20px;
@@ -42,23 +43,22 @@ const NavbarContainer = styled.nav<{ isOpen: boolean}>`
     flex-direction: column;
     align-items: flex-start;
     position: fixed;
-    left: 0px;
     width: 250px;
     background-color: #111;
     color: white;
     padding: 60px 10px 10px 10px;
     z-index: 1;
-    transition: 0.5s;
     height: 100%;
     top: 0;
     left: 0;
 `
+
 const ItemTitle = styled.div<{ isClickable: boolean}>`
     display: flex;
     padding: 10px 5px;
     cursor: ${({ isClickable }) => (isClickable ? 'pointer' : '')};
     font-family: Roboto;
-    font-size: 20px;
+    font-size: 16px;
     margin-top: 12px;
     transition: 0.4s ease;
 
@@ -106,10 +106,9 @@ const NavBar: React.FC = () => {
         <>
             
             <StyledContainer>
-                <StyledImage src={LogoImg} alt="Logo" />
+                <StyledImage src={LogoImgNew} alt="Logo" />
 
                 <ContainerTitle>
-                    <StyledTitle>  Turtle’s Cake</StyledTitle>
                     <MenuButton onClick={toggleMenu}>&#9776; Menu</MenuButton>
                 </ContainerTitle>
             </StyledContainer>
@@ -129,6 +128,11 @@ const NavBar: React.FC = () => {
                 <TitleDiv to="/sobremesas">
                     <ItemTitle isClickable={true}>
                         Sobremesas
+                    </ItemTitle>
+                </TitleDiv>
+                <TitleDiv to="/docinhos">
+                    <ItemTitle isClickable={true}>
+                        Docinhos para Festas
                     </ItemTitle>
                 </TitleDiv>
                 <TitleDiv to="/fidelidade">
