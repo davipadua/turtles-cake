@@ -16,7 +16,7 @@ export default function Cakes(){
                 <Title name="Cakes Gourmet"></Title>
                 <Card
                     name="Cake de Maçã"
-                    link="#"
+                    link="https://wa.me/5535991945050?text=Olá,%20gostaria%20de%20saber%20mais%20sobre%20o%20Cake%20de%20Maçã"
                     price1="R$ 40,00"
                     img={LogoImg}
                     description1="Massa de farinha premium com açúcar mascavo e canela, suco e fatias da maçã natural."
@@ -24,7 +24,7 @@ export default function Cakes(){
                 />
                 <Card
                     name="Cake de Laranja"
-                    link="#"
+                    link="https://wa.me/5535991945050?text=Olá,%20gostaria%20de%20saber%20mais%20sobre%20o%20Cake%20de%20Laranja"
                     price1="R$ 40,00"
                     img={LogoImg}
                     description1="Massa de farinha premium com o suco da laranja natural e cobertura de laranja."
@@ -32,7 +32,7 @@ export default function Cakes(){
                 />
                 <Card
                     name="Cake de Cenoura"
-                    link="#"
+                    link="https://wa.me/5535991945050?text=Olá,%20gostaria%20de%20saber%20mais%20sobre%20o%20Cake%20de%20Cenoura"
                     price1="R$ 45,00"
                     img={LogoImg}
                     description1="Massa de farinha premium com a cenoura natural e cobertura de chocolate com granulado gourmet."

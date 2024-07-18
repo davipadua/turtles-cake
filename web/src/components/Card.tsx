@@ -101,7 +101,7 @@ export default function Card(props: CardProps) {
               {props.price2 ?? ""}<br/>
               {props.price3 ?? ""}
             </StyledPrice>
-            <StyledLink href={props.link}>Encomendar</StyledLink>
+            <StyledLink target="blank" href={props.link}>Encomendar</StyledLink>
           </StyledPriceAndButton>
         </StyledTextCard>
       </StyledContentCard>
