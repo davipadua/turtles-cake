@@ -3,10 +3,10 @@ import {ReactNode} from "react"
 import styled from "styled-components"
 
 const StyledContainer = styled.div`
-    margin: 50px 20%;
+    margin: 250px 20% 50px 20%;
 
     @media (max-width: 500px) {
-        margin: 0;
+        margin: 0 0 50px 0;
     }
 `;
 

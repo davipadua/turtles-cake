@@ -12,10 +12,21 @@ const StyledContainer = styled.div`
     flex-direction: column;
     align-items: center;
     padding-top: 10px;
+
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    width:100%;
 `;
 
 const StyledImage = styled.img`
-    width: 200px;
+    width: 170px;
+
+    @media (max-width: 500px) {
+        width: 100px;
+    }
+    
 `;
 
 const StyledTitle = styled.h1`
@@ -35,6 +46,10 @@ const MenuButton = styled.button`
     font-size: 20px;
     cursor: pointer;
     padding: 0 20px 10px 20px;
+
+    @media (max-width: 500px) {
+        font-size: 16px;
+    }
     
 `
 
@@ -47,10 +62,14 @@ const NavbarContainer = styled.nav<{ isOpen: boolean}>`
     background-color: #111;
     color: white;
     padding: 60px 10px 10px 10px;
-    z-index: 1;
+    z-index: 2;
     height: 100%;
     top: 0;
     left: 0;
+
+    @media (max-width: 500px) {
+        width: 80%;
+    }
 `
 
 const ItemTitle = styled.div<{ isClickable: boolean}>`
