@@ -28,7 +28,7 @@ const StyledTitle = styled.p`
 
 const StyledImgCard = styled.img`
   background-color: #f0f0f0;
-  width: 200px;
+  width: 250px;
   margin: 0 20px 20px 0;
 
   @media (max-width: 500px) {
@@ -88,8 +88,6 @@ const StyledLink = styled.a`
   @media (max-width: 500px) {
         font-size: 15px;
     }
-
-  
 `;
 
 interface CardProps {

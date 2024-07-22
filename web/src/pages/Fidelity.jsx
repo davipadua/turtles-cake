@@ -1,11 +1,10 @@
 import Container from "../components/Container";
-import Header from "../components/NavBar";
+import NavBar from "../components/NavBar";
 import Title from "../components/Title";
 import FidelityCard from "../components/FidelityCard";
 import Footer from "../components/Footer";
 import FidelityImg from "../assets/fidelity-img.png";
-import { colors } from "@mui/material";
-import { Padding } from "@mui/icons-material";
+import LogoImgNew from "../assets/logo-img-new.png";
 
 
 
@@ -13,7 +12,7 @@ import { Padding } from "@mui/icons-material";
 export default function Fidelity(){
     return(
         <>
-            <Header/>
+            <NavBar ImgLogo={LogoImgNew} />
             <Container>
                 <Title name="Programa de Fidelidade"></Title>
                 <FidelityCard img={FidelityImg}/>

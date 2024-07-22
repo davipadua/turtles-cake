@@ -1,7 +1,5 @@
 import React, { useState } from "react";
 import styled from "styled-components";
-import LogoImg from "../assets/logo-img.png";
-import LogoImgNew from "../assets/logo-img-new.png";
 import { Link } from "react-router-dom";
 import CloseIcon from '@mui/icons-material/Close';
 
@@ -113,19 +111,23 @@ const CloseBtn = styled.div`
 
 `
 
-const NavBar: React.FC = () => {
+interface NavBarProps{
+    ImgLogo: string;
+}
+
+function NavBar(props: NavBarProps) {
 
     const [isMenuOpen, setMenuOpen] = useState(false);
 
     const toggleMenu = () => {
         setMenuOpen(!isMenuOpen);
-    }
+    };
 
     return (
         <>
-            
+
             <StyledContainer>
-                <StyledImage src={LogoImgNew} alt="Logo" />
+                <StyledImage src={props.ImgLogo} alt="Logo" />
 
                 <ContainerTitle>
                     <MenuButton onClick={toggleMenu}>&#9776; Menu</MenuButton>
@@ -133,7 +135,7 @@ const NavBar: React.FC = () => {
             </StyledContainer>
 
             <NavbarContainer isOpen={isMenuOpen}>
-                <CloseBtn onClick={toggleMenu}><CloseIcon/></CloseBtn>
+                <CloseBtn onClick={toggleMenu}><CloseIcon /></CloseBtn>
                 <TitleDiv to="/">
                     <ItemTitle isClickable={true}>
                         Bolos
@@ -166,7 +168,7 @@ const NavBar: React.FC = () => {
                 </TitleDiv>
             </NavbarContainer>
         </>
-    )
+    );
 }
 
 export default NavBar;
