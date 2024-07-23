@@ -1,5 +1,4 @@
 import Container from "../components/Container";
-import Header from "../components/NavBar";
 import Title from "../components/Title";
 import Card from "../components/Card";
 import LogoImgNew from "../assets/logo-img-new.png";
@@ -28,7 +27,7 @@ export default function Sweets(){
         <>
             <NavBar ImgLogo={LogoImgNew} />
             <Container>
-                <Title name="Docinhos para Festas"></Title>
+                <Title name="Docinhos Gourmet"></Title>
                 <Card
                     name="Brigadeiro de Chocolate ao Leite"
                     link="https://wa.me/5535991945050?text=Olá,%20gostaria%20de%20saber%20mais%20sobre%20o%20Brigadeiro%20de%20Chocolate%20ao%20Leite"
@@ -87,7 +86,7 @@ export default function Sweets(){
                     price1="R$ 180,00 - Tradicional"
                     price2="R$ 200,00 - Com Creme de Avelã"
                     img={Ninho}
-                    description1="Feito com Leite Moça Nestlé®, creme de leite, Leite Ninho® e creme de avelã."
+                    description1="Feito com Leite Moça Nestlé®, creme de leite, Leite Ninho® e Nutella®."
                 />
                 <Card
                     name="Brigadeiro de Churros"
@@ -101,7 +100,7 @@ export default function Sweets(){
                     link="https://wa.me/5535991945050?text=Olá,%20gostaria%20de%20saber%20mais%20sobre%20o%20Brigadeiro%20Ferrero"
                     price1="R$ 220,00 - Tradicional"
                     img={Avela}
-                    description1="Feito com Leite Moça Nestlé®, creme de leite, chocolate 50% cacau, avelã, creme de avelã e amendoin triturado."
+                    description1="Feito com Leite Moça Nestlé®, creme de leite, chocolate 50% cacau, avelã, Nutella® e amendoin triturado."
                 />
             </Container>
             <Footer/>
