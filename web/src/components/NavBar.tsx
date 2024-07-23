@@ -21,7 +21,7 @@ const StyledContainer = styled.div`
 const StyledImage = styled.img`
     width: 170px;
 
-    @media (max-width: 500px) {
+    @media (max-width: 600px) {
         width: 100px;
     }
     
@@ -45,7 +45,7 @@ const MenuButton = styled.button`
     cursor: pointer;
     padding: 0 20px 10px 20px;
 
-    @media (max-width: 500px) {
+    @media (max-width: 600px) {
         font-size: 16px;
     }
     
@@ -65,7 +65,7 @@ const NavbarContainer = styled.nav<{ isOpen: boolean}>`
     top: 0;
     left: 0;
 
-    @media (max-width: 500px) {
+    @media (max-width: 600px) {
         width: 80%;
     }
 `

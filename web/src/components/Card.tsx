@@ -11,7 +11,7 @@ const StyledCard = styled.div`
 const StyledContentCard = styled.div`
   display: flex;
 
-  @media (max-width: 500px) {
+  @media (max-width: 600px) {
     flex-wrap: wrap;
   }
 `;
@@ -21,7 +21,7 @@ const StyledTitle = styled.p`
   font-family: 'Roboto', sans-serif;
   margin-bottom: 10px;
 
-  @media (max-width: 500px) {
+  @media (max-width: 600px) {
     font-size: 19px;
   }
 `;
@@ -31,7 +31,7 @@ const StyledImgCard = styled.img`
   width: 250px;
   margin: 0 20px 20px 0;
 
-  @media (max-width: 500px) {
+  @media (max-width: 600px) {
         width: 180px;
     }
 `;
@@ -48,7 +48,7 @@ const StyledTextContent = styled.p`
   font-size: 15px;
   margin: 0 0 10px 0;
 
-  @media (max-width: 500px) {
+  @media (max-width: 600px) {
         font-size: 14px;
     }
 `;
@@ -64,7 +64,7 @@ const StyledPrice = styled.div`
   font-size: 16px;
   font-weight: bold;
 
-  @media (max-width: 500px) {
+  @media (max-width: 600px) {
         font-size: 15px;
     }
 `;
@@ -85,7 +85,7 @@ const StyledLink = styled.a`
         color: ;
     }
 
-  @media (max-width: 500px) {
+  @media (max-width: 600px) {
         font-size: 15px;
     }
 `;

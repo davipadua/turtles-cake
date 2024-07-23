@@ -1,7 +1,5 @@
 body{
     margin: 0;
-    
-
 }
 
 .page-container {
@@ -10,16 +8,6 @@ body{
     min-height: 100vh;
 }
 
-/* Fazendo com que o conteúdo principal ocupe o espaço disponível */
 .content-wrap {
     flex: 1;
-    padding: 20px; /* Ajuste o padding conforme necessário */
-}
-
-/* Estilo básico para o rodapé */
-footer {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 10px 0;
 }

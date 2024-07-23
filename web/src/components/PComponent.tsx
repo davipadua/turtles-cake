@@ -2,13 +2,11 @@ import React from "react";
 import styled from "styled-components";
 
 const StyledP = styled.p`
-    
-    
+
     font-family: 'Roboto';
     
-
-    @media (max-width: 500px) {
-        font-size: 25px;
+    @media (max-width: 850px) {
+        font-size: 13px;
     }
 `;
 
