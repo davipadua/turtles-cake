@@ -4,10 +4,9 @@ import styled from "styled-components"
 
 const StyledContainer = styled.div`
     margin: 250px 20% 50px 20%;
+    flex: 1;
 
-    @media (max-width: 500px) {
-        margin: 0 0 50px 0;
-    }
+    
 `;
 
 interface ContainerProps {
