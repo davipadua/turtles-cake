@@ -135,7 +135,7 @@ function NavBar(props: NavBarProps) {
             </StyledContainer>
 
             <NavbarContainer isOpen={isMenuOpen}>
-                <CloseBtn onClick={toggleMenu}><CloseIcon /></CloseBtn>
+                <CloseBtn onClick={toggleMenu}><CloseIcon/></CloseBtn>
                 <TitleDiv to="/">
                     <ItemTitle isClickable={true}>
                         Bolos
