@@ -7,7 +7,13 @@ import LogoImgNew from "../assets/logo-img-new.png";
 
 import Pudim from "../assets/Doces/pudim.jpg"
 
+const PudimList = [
+    {
+        "src": Pudim,
+        "alt": "Brigadeiro de Churros",
 
+    }
+]
 
 export default function Desserts(){
     return(
@@ -19,9 +25,9 @@ export default function Desserts(){
                     name="Pudim de Leite"
                     link="https://wa.me/5535991945050?text=Olá,%20gostaria%20de%20saber%20mais%20sobre%20o%20Pudim%20de%20Leite"
                     price1="R$ 45,00"
-                    img={Pudim}
                     description1="Leite condensado moça, leite CooperRita e uma deliciosa calda de açúcar caramelizado."
                     description2="Perfeito para sua sobremesa!"
+                    imgList={PudimList}
                 />
             </Container>
             <Footer/>
