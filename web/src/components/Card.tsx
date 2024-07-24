@@ -1,6 +1,8 @@
 import React from "react";
 import styled from "styled-components";
 
+import {Carousel} from "./Carousel.tsx";
+
 const StyledCard = styled.div`
   background-color: white;
   padding: 20px;
@@ -99,6 +101,7 @@ interface CardProps {
   img: string;
   description1: string;
   description2: string;
+  imgList: [];
 }
 
 export default function Card(props: CardProps) {
@@ -107,7 +110,7 @@ export default function Card(props: CardProps) {
       <StyledTitle>{props.name}</StyledTitle>
 
       <StyledContentCard>
-        <StyledImgCard src={props.img} alt={props.name} />
+        <Carousel data={props.imgList}/>
         <StyledTextCard>
           <StyledTextContent>{props.description1}<br></br>{props.description2 ?? ""}</StyledTextContent>
           <StyledPriceAndButton>
