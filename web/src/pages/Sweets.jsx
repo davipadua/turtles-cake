@@ -59,7 +59,7 @@ const CasadinhoList = [
 const PrestigioList = [
     {
         "src": Prestigio,
-        "alt": "Brigadeiro Prestigio",
+        "alt": "Brigadeiro de Coco",
 
     }
 ]
@@ -149,7 +149,7 @@ export default function Sweets(){
                     imgList={CasadinhoList}
                 />
                 <Card
-                    name="Brigadeiro Prestígio"
+                    name="Brigadeiro de Coco"
                     link="https://wa.me/5535991945050?text=Olá,%20gostaria%20de%20saber%20mais%20sobre%20o%20Brigadeiro%20Prestígio"
                     price1="R$ 180,00 - Tradicional"
                     description1="Feito com Leite Moça Nestlé®, creme de leite, leite de coco e coco ralado."

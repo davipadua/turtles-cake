@@ -79,7 +79,7 @@ export default function Turtles(){
                 <Card
                     name="Turtle Escocesa"
                     link="https://wa.me/5535991945050?text=Olá,%20gostaria%20de%20saber%20mais%20sobre%20a%20Turtle%20Escocesa"
-                    price1="R$ 73,00"
+                    price1="R$ 90,00"
                     description1="Massa de farinha premium com nozes e açúcar mascavo, recheio de caramelo amanteigado com cobertura em chocolate nobre. "
                     description2="A famosa torta do Pica-Pau!"
                     imgList={TortaPicapauList}
