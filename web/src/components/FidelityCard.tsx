@@ -4,7 +4,8 @@ import styled from "styled-components"
 
 
 const StyledP = styled.p`
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
 
 `
 

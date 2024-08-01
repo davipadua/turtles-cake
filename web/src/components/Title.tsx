@@ -2,10 +2,10 @@ import React from "react";
 import styled from "styled-components";
 
 const StyledTitle = styled.h1`
-    font-size: 40px;
+    font-size: 45px;
     text-align: center;
-    font-family: 'Roboto';
-    font-weight: 300;
+    font-family: 'Quicksand';
+    font-weight: 400;
     border-bottom: solid 1.5px black;
 
     @media (max-width: 600px) {

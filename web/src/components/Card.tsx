@@ -7,7 +7,6 @@ const StyledCard = styled.div`
   background-color: white;
   padding: 20px;
   border-bottom: 1.5px dashed;
-  font-family: 'Roboto', sans-serif;
 `;
 
 const StyledContentCard = styled.div`
@@ -20,7 +19,7 @@ const StyledContentCard = styled.div`
 
 const StyledTitle = styled.p`
   font-size: 25px;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Quicksand', sans-serif;
   margin-bottom: 10px;
 
   @media (max-width: 600px) {
@@ -46,8 +45,8 @@ const StyledTextCard = styled.div`
 `;
 
 const StyledTextContent = styled.p`
-  font-family: 'Roboto', sans-serif;
-  font-size: 15px;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 16px;
   margin: 0 0 10px 0;
 
   @media (max-width: 600px) {
