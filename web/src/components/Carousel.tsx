@@ -31,7 +31,7 @@ export const Carousel = ({ data }) => {
 
   return (
     <div className="carousel">
-      <NavigateBeforeIcon onClick={prevSlide} className="arrow arrow-left" />
+      <NavigateBeforeIcon onClick={prevSlide} className={data.length !== 1 ? "arrow arrow-left arrow-padding" : "slide-hidden"} />
       {data.map((item, idx) => {
         return (
           <StyledImgCard
@@ -44,9 +44,9 @@ export const Carousel = ({ data }) => {
       })}
       <NavigateNextIcon
         onClick={nextSlide}
-        className="arrow arrow-right"
+        className={data.length !== 1 ? "arrow arrow-right arrow-padding" : "slide-hidden"}
       />
-      <span className="indicators">
+      <span className={data.length !== 1 ? "indicators" : "slide-hidden"}>
         {data.map((_, idx) => {
           return (
             <button

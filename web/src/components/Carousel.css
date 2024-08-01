@@ -7,14 +7,14 @@
   }
   
   .slide-hidden {
-    display: none;
+    display: none !important;
   }
   
   .arrow {
     position: absolute;
     filter: drop-shadow(0px 0px 5px #555);
-    width: 2rem;
-    height: 2rem;
+    width: 1.7rem ;
+    height: 1.7rem ;
     color: white;
   }
   
@@ -38,8 +38,8 @@
   
   .indicator {
     background-color: white;
-    height: 0.5rem;
-    width: 0.5rem;
+    height: 10px;
+    width: 10px;
     border-radius: 100%;
     border: none;
     outline: none;
@@ -50,4 +50,8 @@
   
   .indicator-inactive {
     background-color: grey;
+  }
+
+  .arrow-padding {
+    padding: 2rem 0;
   }
