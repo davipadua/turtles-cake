@@ -3,7 +3,8 @@ import styled from "styled-components";
 
 const StyledP = styled.p`
 
-    font-family: 'Roboto';
+    font-family: 'Work Sans';
+    font-size: 16px;
     
     @media (max-width: 850px) {
         font-size: 13px;

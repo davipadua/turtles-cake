@@ -10,9 +10,14 @@ const StyledContainer = styled.div`
         margin: 250px 10% 50px 10%;
     }
 
-    @media (max-width: 740px) {
+    @media (max-width: 768px) {
         margin: 200px 5% 50px 5%;
     }
+
+    @media (max-width: 600px) {
+        margin: 150px 5% 50px 5%;
+    }
+
 
     
 `;
