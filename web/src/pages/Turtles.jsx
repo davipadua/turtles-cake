@@ -88,7 +88,7 @@ export default function Turtles(){
                     name="Turtle Noff"
                     link="https://wa.me/5535991945050?text=Olá,%20gostaria%20de%20saber%20mais%20sobre%20a%20Turtle%20Noff"
                     price1="R$ 98,00"
-                    description1="Massa de bolacha maizena® chocolate, recheio feito do doce de leite CooperRita®, banana em rodelas caramelizadas no açúcar e canela e um delicioso e leve chantilly."
+                    description1="Massa de bolacha maizena® chocolate, recheio feito do doce de leite CooperRita®, banana em rodelas caramelizadas no açúcar e canela e um irresistível merengue maçaricado."
                     imgList={BanoffeList}
                 />
             </Container>

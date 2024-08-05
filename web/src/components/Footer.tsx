@@ -32,13 +32,14 @@ interface FooterProps {
 export default function Footer(props: FooterProps) {
   return (
     <StyledCotainerFooter>
-        <StyledLink href="#"><InstagramIcon/></StyledLink>
-        <StyledLink href="#"><WhatsappIcon/></StyledLink>
+        <StyledLink href="https://www.instagram.com/turtles_cake/"><InstagramIcon/></StyledLink>
+        <StyledLink href="https://wa.me/5535991945050?text=Olá,%20gostaria%20de%fazer%20um%20pedido!"><WhatsappIcon/></StyledLink>
 
         <StyledText>
             Turtle’s Cake<br/>
             Santa Rita do Sapucaí<br/>
-            Rua Maria da Conceição Ribeiro n.º 100
+            Av. Frederico de Paula Cunha n.º 271 - Loja Adonai Camisetas
+            
         </StyledText>
     </StyledCotainerFooter>
 
