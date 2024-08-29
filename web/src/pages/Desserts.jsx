@@ -3,6 +3,7 @@ import NavBar from "../components/NavBar";
 import Title from "../components/Title";
 import Card from "../components/Card";
 import Footer from "../components/Footer";
+import AdditionalInformation from "../components/AdditionalInformation";
 import LogoImgNew from "../assets/logo-img-new.png";
 
 import Pudim from "../assets/Doces/pudim.jpg"
@@ -25,11 +26,11 @@ export default function Desserts(){
                     name="Pudim de Leite"
                     link="https://wa.me/5535991945050?text=Olá,%20gostaria%20de%20saber%20mais%20sobre%20o%20Pudim%20de%20Leite"
                     price1="R$ 45,00"
-                    description1="Leite condensado moça, leite CooperRita e uma deliciosa calda de açúcar caramelizado."
-                    description2="Perfeito para sua sobremesa!"
+                    description1="Leite condensado, ovos, leite e uma deliciosa calda de açúcar caramelizado. Perfeito para sua sobremesa!"
                     imgList={PudimList}
                 />
             </Container>
+            <AdditionalInformation/>
             <Footer/>
         </>
     )

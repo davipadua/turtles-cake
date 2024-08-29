@@ -4,6 +4,7 @@ import Card from "../components/Card";
 import LogoImgNew from "../assets/logo-img-new.png";
 import Footer from "../components/Footer";
 import NavBar from "../components/NavBar";
+import AdditionalInformation from "../components/AdditionalInformation";
 
 import Avela from "../assets/Docinhos/avela.jpg"
 import BrigadeiroLeiteGranule from "../assets/Docinhos/brigadeiro-ao-leite-granule.jpg"
@@ -127,78 +128,80 @@ export default function Sweets(){
                 <Card
                     name="Brigadeiro de Chocolate ao Leite"
                     link="https://wa.me/5535991945050?text=Olá,%20gostaria%20de%20saber%20mais%20sobre%20o%20Brigadeiro%20de%20Chocolate%20ao%20Leite"
-                    price1="R$ 160,00 - Tradicional"
-                    price2="R$ 200,00 - Granulé"
-                    price3="R$ 200,00 - Confete"
-                    description1="Feito com Leite Moça Nestlé®, creme de leite e chocolate em pó 50% cacau."
+                    price1="R$ 150,00 - Tradicional"
+                    price2="R$ 170,00 - Confete"
+                    price3="R$ 180,00 - Granulé"
+                    description1="Feito com leite condensado, creme de leite e chocolate em pó 50% cacau."
                     imgList={BrigadeiroAoLeiteList}
                 />
                 <Card
                     name="Brigadeiro de Chocolate Branco"
                     link="https://wa.me/5535991945050?text=Olá,%20gostaria%20de%20saber%20mais%20sobre%20o%20Brigadeiro%20de%20Chocolate%20Branco"
-                    price1="R$ 160,00 - Tradicional"
-                    price2="R$ 220,00 - Granulé"
-                    description1="Feito com Leite Moça Nestlé®, creme de leite e chocolate branco nobre."
+                    price1="R$ 150,00 - Tradicional"
+                    price2="R$ 190,00 - Granulé"
+                    description1="Feito com leite condensado, creme de leite e chocolate branco nobre."
                     imgList={BrigadeiroBrancoList}
                 />
                 <Card
                     name="Brigadeiro Casadinho"
                     link="https://wa.me/5535991945050?text=Olá,%20gostaria%20de%20saber%20mais%20sobre%20o%20Brigadeiro%20Casadinho"
-                    price1="R$ 160,00 - Tradicional"
-                    description1="Feito com Leite Moça Nestlé®, creme de leite, chocolate em pó 50% cacau e chocolate branco nobre."
+                    price1="R$ 140,00 - Tradicional"
+                    description1="Feito com leite condensado, creme de leite, chocolate em pó 50% cacau e chocolate branco nobre."
                     imgList={CasadinhoList}
                 />
                 <Card
                     name="Brigadeiro de Coco"
                     link="https://wa.me/5535991945050?text=Olá,%20gostaria%20de%20saber%20mais%20sobre%20o%20Brigadeiro%20Prestígio"
-                    price1="R$ 180,00 - Tradicional"
-                    description1="Feito com Leite Moça Nestlé®, creme de leite, leite de coco e coco ralado."
+                    price1="R$ 160,00 - Tradicional"
+                    description1="Feito com leite condensado, creme de leite, leite de coco e coco ralado."
                     imgList={PrestigioList}
                 />
                 <Card
                     name="Brigadeiro de Morango"
                     link="https://wa.me/5535991945050?text=Olá,%20gostaria%20de%20saber%20mais%20sobre%20o%20Brigadeiro%20de%20Morango"
-                    price1="R$ 160,00 - Tradicional"
-                    description1="Feito com Leite Moça Nestlé®, creme de leite, chocolate branco nobre e suco sabor morango."
+                    price1="R$ 140,00 - Tradicional"
+                    price2="R$ 160,00 - Com Nutella"
+                    description1="Feito com leite condensado, creme de leite, chocolate branco nobre e suco de morango."
                     imgList={MorangoList}
                 />
                 <Card
                     name="Brigadeiro Dois Amores"
                     link="https://wa.me/5535991945050?text=Olá,%20gostaria%20de%20saber%20mais%20sobre%20o%20Brigadeiro%20Dois%20Amores"
-                    price1="R$ 160,00 - Tradicional"
-                    description1="Feito com Leite Moça Nestlé®, creme de leite, chocolate branco nobre e suco de morango."
+                    price1="R$ 140,00 - Tradicional"
+                    description1="Feito com leite condensado, creme de leite, chocolate branco nobre e suco de morango."
                     imgList={DoisAmoresList}
                 />
                 <Card
                     name="Brigadeiro de Paçoca"
                     link="https://wa.me/5535991945050?text=Olá,%20gostaria%20de%20saber%20mais%20sobre%20o%20Brigadeiro%20de%20Paçoca"
-                    price1="R$ 180,00 - Tradicional"
-                    description1="Feito com Leite Moça Nestlé®, creme de leite e paçoca."
+                    price1="R$ 150,00 - Tradicional"
+                    description1="Feito com leite condensado, creme de leite e paçoca."
                     imgList={PacocaList}
                 />
                 <Card
                     name="Brigadeiro de Ninho"
                     link="https://wa.me/5535991945050?text=Olá,%20gostaria%20de%20saber%20mais%20sobre%20o%20Brigadeiro%20de%20Ninho"
-                    price1="R$ 180,00 - Tradicional"
-                    price2="R$ 200,00 - Com Creme de Avelã"
-                    description1="Feito com Leite Moça Nestlé®, creme de leite, Leite Ninho® e Nutella®."
+                    price1="R$ 150,00 - Tradicional"
+                    price2="R$ 170,00 - Com Nutella"
+                    description1="Feito com leite condensado, creme de leite e leite Ninho."
                     imgList={NinhoList}
                 />
                 <Card
                     name="Brigadeiro de Churros"
                     link="https://wa.me/5535991945050?text=Olá,%20gostaria%20de%20saber%20mais%20sobre%20o%20Brigadeiro%20de%20Churros"
-                    price1="R$ 180,00 - Tradicional"
-                    description1="Feito com Leite Moça Nestlé®, creme de leite, canela e doce de leite."
+                    price1="R$ 150,00 - Tradicional"
+                    description1="Feito com leite condensado, creme de leite, canela e doce de leite."
                     imgList={ChurrosList}
                 />
                 <Card
                     name="Brigadeiro Ferrero"
                     link="https://wa.me/5535991945050?text=Olá,%20gostaria%20de%20saber%20mais%20sobre%20o%20Brigadeiro%20Ferrero"
-                    price1="R$ 220,00 - Tradicional"
-                    description1="Feito com Leite Moça Nestlé®, creme de leite, chocolate 50% cacau, avelã, Nutella® e amendoin triturado."
+                    price1="R$ 180,00 - Tradicional"
+                    description1="Feito com leite condensado, creme de leite, chocolate 50% cacau, avelã, Nutella e amendoin triturado."
                     imgList={AvelaList}
                 />
             </Container>
+            <AdditionalInformation/>
             <Footer/>
         </>
     )
